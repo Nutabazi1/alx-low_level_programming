@@ -8,12 +8,9 @@
 
 void _puts(char *str)
 {
-int i = 0;
+    char *str;
 
-while (str[i])
-{
-        _putchar(str[i]);
-        i++;
-}
-_putchar('\n');
+    str= "becoming an ALx student makes me more happier than ever";
+    _puts(str)
+    return (0)
 }

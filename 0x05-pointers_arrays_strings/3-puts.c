@@ -11,6 +11,6 @@ void _puts(char *str)
     char *str;
 
     str= "becoming an ALx student makes me more happier than ever";
-    _puts(str)
-    return (0)
+    _puts(str);
+    return (0);
 }
